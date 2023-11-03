@@ -1,0 +1,19 @@
+*{
+    color: pink;
+}
+
+h1{
+    color: green;
+}
+
+#heading1{
+    color: black;
+}
+
+#heading2{
+    color: blueviolet;
+}
+
+.myClass{
+    color: aqua;
+}

@@ -1,0 +1,13 @@
+#div1{
+    background-color: pink;
+}
+
+#div2{
+    background-color: pink;
+    display: inline;
+}
+
+button{
+    display: block;
+    /* inspect to see the changes */
+}

@@ -1,0 +1,48 @@
+#div1{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+
+    margin-top: 50px;
+    /* inspect to see the padding changes */
+}
+
+#div2{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+
+    margin: 60px;
+    /* inspect to see the padding changes */
+}
+
+#div3{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px 30px 40px;
+
+    margin: 20px 30px 40px 50px;
+     /* top right bottom left --> clockwise */
+    /* inspect to see the padding changes */
+}
