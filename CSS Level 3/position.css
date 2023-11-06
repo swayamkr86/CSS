@@ -1,0 +1,48 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+p{
+    font-size: 50px;
+}
+
+#box1{
+    position: static;
+    /* movement properties do not work */
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    /* with respect to the parent */
+}
+
+#box3{
+    position: absolute;
+    top: 500px;
+    right: 10px;
+    /* with respect to the window */
+}
+
+#box4{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#box5{
+    position: sticky;
+    left: 50%;
+    top: 0px;
+}
+
+#box6{
+    position: absolute;
+    left: 200px;
+    z-index: -1;
+}
